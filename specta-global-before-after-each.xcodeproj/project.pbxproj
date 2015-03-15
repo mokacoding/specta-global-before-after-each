@@ -11,6 +11,8 @@
 		698A9457B03407D72B4F1D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688C357E3BAACCFC7A14EEA /* AppDelegate.swift */; };
 		6EE7520E1AB61A6F001C0ADF /* ASpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7520D1AB61A6F001C0ADF /* ASpec.m */; };
 		6EE752121AB61BD8001C0ADF /* AnotherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE752111AB61BD8001C0ADF /* AnotherSpec.m */; };
+		6EE752151AB61F3D001C0ADF /* GlobalBeforeEach.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE752141AB61F3D001C0ADF /* GlobalBeforeEach.m */; };
+		6EE752181AB61FC7001C0ADF /* GlobalAfterEach.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE752171AB61FC7001C0ADF /* GlobalAfterEach.m */; };
 		9BCEABCFFB5DD7D2102257D2 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = C69451808A9AAC91B54E80E8 /* Main.storyboard */; };
 		9DAC0E52E54218EE3443EB1A /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BF90A9F3350636A103188F /* libPods-unit_tests.a */; };
 		9E09CC974625EB8C4A32CA35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5542C89E2EFC4F4D5831E1E /* Images.xcassets */; };
@@ -36,6 +38,10 @@
 		5688C357E3BAACCFC7A14EEA /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE7520D1AB61A6F001C0ADF /* ASpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASpec.m; sourceTree = "<group>"; };
 		6EE752111AB61BD8001C0ADF /* AnotherSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherSpec.m; sourceTree = "<group>"; };
+		6EE752131AB61F3D001C0ADF /* GlobalBeforeEach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalBeforeEach.h; sourceTree = "<group>"; };
+		6EE752141AB61F3D001C0ADF /* GlobalBeforeEach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalBeforeEach.m; sourceTree = "<group>"; };
+		6EE752161AB61FC7001C0ADF /* GlobalAfterEach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalAfterEach.h; sourceTree = "<group>"; };
+		6EE752171AB61FC7001C0ADF /* GlobalAfterEach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalAfterEach.m; sourceTree = "<group>"; };
 		A4C32B1FA1CED8F0905DDA2A /* specta-global-before-after-each.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "specta-global-before-after-each.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58F6642654C877A6CB01C67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A906FFA2DBBA79A1BB4852F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -143,6 +149,10 @@
 		B7F93FD71D252BAAAEF1780C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				6EE752131AB61F3D001C0ADF /* GlobalBeforeEach.h */,
+				6EE752141AB61F3D001C0ADF /* GlobalBeforeEach.m */,
+				6EE752161AB61FC7001C0ADF /* GlobalAfterEach.h */,
+				6EE752171AB61FC7001C0ADF /* GlobalAfterEach.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -397,7 +407,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE752181AB61FC7001C0ADF /* GlobalAfterEach.m in Sources */,
 				6EE752121AB61BD8001C0ADF /* AnotherSpec.m in Sources */,
+				6EE752151AB61F3D001C0ADF /* GlobalBeforeEach.m in Sources */,
 				6EE7520E1AB61A6F001C0ADF /* ASpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
