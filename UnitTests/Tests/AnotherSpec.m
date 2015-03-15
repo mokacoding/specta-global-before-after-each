@@ -5,29 +5,29 @@ SpecBegin(AnotheSpec)
 
 describe(@"an example spec", ^{
     beforeAll(^{
-        NSLog(@"Do something once, before all the examples");
+        NSLog(@"🐷 Do something once, before all the examples");
     });
     
     beforeEach(^{
-        NSLog(@"Do something before each example");
+        NSLog(@"🐷 Do something before each example");
     });
     
     it(@"should do something interesting", ^{
-        NSLog(@"something interesting");
+        NSLog(@"🐷 something interesting");
         expect(1 + 1).to.equal(2);
     });
     
     it(@"should do something else", ^{
-        NSLog(@"something else");
+        NSLog(@"🐷 something else");
         expect(1 * 1).to.equal(1);
     });
     
     afterEach(^{
-        NSLog(@"do something after each example");
+        NSLog(@"🐷 Do something after each example");
     });
     
     afterAll(^{
-        NSLog(@"do something once, after all examples");
+        NSLog(@"🐷 Do something once, after all examples");
     });
 });
 
