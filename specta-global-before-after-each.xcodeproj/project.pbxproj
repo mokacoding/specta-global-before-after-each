@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		660DCD47C0A76DAA38A3AA4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A906FFA2DBBA79A1BB4852F2 /* Foundation.framework */; };
 		698A9457B03407D72B4F1D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688C357E3BAACCFC7A14EEA /* AppDelegate.swift */; };
+		6EE7520E1AB61A6F001C0ADF /* ASpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7520D1AB61A6F001C0ADF /* ASpec.m */; };
+		6EE752121AB61BD8001C0ADF /* AnotherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE752111AB61BD8001C0ADF /* AnotherSpec.m */; };
 		9BCEABCFFB5DD7D2102257D2 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = C69451808A9AAC91B54E80E8 /* Main.storyboard */; };
 		9DAC0E52E54218EE3443EB1A /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BF90A9F3350636A103188F /* libPods-unit_tests.a */; };
 		9E09CC974625EB8C4A32CA35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5542C89E2EFC4F4D5831E1E /* Images.xcassets */; };
@@ -32,6 +34,8 @@
 		4E65723544091ECD83898A14 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		55DA864D7E751AFE669FFDCC /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		5688C357E3BAACCFC7A14EEA /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EE7520D1AB61A6F001C0ADF /* ASpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASpec.m; sourceTree = "<group>"; };
+		6EE752111AB61BD8001C0ADF /* AnotherSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherSpec.m; sourceTree = "<group>"; };
 		A4C32B1FA1CED8F0905DDA2A /* specta-global-before-after-each.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "specta-global-before-after-each.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58F6642654C877A6CB01C67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A906FFA2DBBA79A1BB4852F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -107,6 +111,8 @@
 		5C4E51A5C14D36CBD5951F40 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				6EE7520D1AB61A6F001C0ADF /* ASpec.m */,
+				6EE752111AB61BD8001C0ADF /* AnotherSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -391,6 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE752121AB61BD8001C0ADF /* AnotherSpec.m in Sources */,
+				6EE7520E1AB61A6F001C0ADF /* ASpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
