@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Specta/SPTExcludeGlobalBeforeAfterEach.h>
+#import <Specta/SPTGlobalBeforeAfterEach.h>
 
-@interface GlobalAfterEach : NSObject <SPTExcludeGlobalBeforeAfterEach>
+@interface GlobalAfterEach : NSObject <SPTGlobalBeforeAfterEach>
 
 @end
