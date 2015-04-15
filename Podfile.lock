@@ -1,10 +1,10 @@
 PODS:
-  - Expecta (0.3.2)
+  - Expecta (0.4.0)
   - OCMock (3.1.2)
   - OHHTTPStubs (3.1.11):
     - OHHTTPStubs/Core (= 3.1.11)
   - OHHTTPStubs/Core (3.1.11)
-  - Specta (0.4.0)
+  - Specta (0.5.0)
 
 DEPENDENCIES:
   - Expecta
@@ -13,9 +13,9 @@ DEPENDENCIES:
   - Specta
 
 SPEC CHECKSUMS:
-  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
-  OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
-  OHHTTPStubs: e6ecc3fd4fa11b2cfb5f4823421bddc95a82913d
-  Specta: 1df326d6ec48603c77f507a0ab1f89ad2df1c582
+  Expecta: 392a6b5bfb9f4097e47dd8064d9b732079490332
+  OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
+  OHHTTPStubs: 5624a5d20d97d46d47e15a68ca8808b59ccf0512
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.36.3
